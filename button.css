@@ -1,0 +1,26 @@
+.buy-button {
+  background-color: #008cba; /* Initial background color */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.5s ease; /* Add transition */
+}
+
+.buy-button:hover {
+  background-image: linear-gradient(
+    to right,
+    #00ba38,
+    rgb(180, 0, 186)
+  ); /* Create a gradient */
+  background-size: 200% 100%; /* Set the size of the gradient */
+  background-position: right bottom; /* Set the position of the gradient */
+  transition: background-position 0.5s ease; /* Add transition */
+}
+
+.buy-button:hover:before {
+  background-position: left bottom; /* Change the position of the gradient when the button is hovered over */
+}
