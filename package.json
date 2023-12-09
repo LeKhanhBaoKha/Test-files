@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "core-js": "^3.34.0",
+    "lodash": "^4.17.21"
+  }
+}
